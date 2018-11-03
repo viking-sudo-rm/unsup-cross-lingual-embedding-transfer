@@ -1,7 +1,11 @@
-SRC_LANG=bg; # source language
-TGT_LANG=en; # target language
+# SRC_LANG=bg; # source language
+# TGT_LANG=en; # target language
 
-DATA_ROOT=./data/;
+# DATA_ROOT=./data/;
+
+DATA_ROOT=../models
+SRC_LANG=voynich-3
+TGT_LANG=galen
 
 VAL_SPLIT=0-5000 # validation data. Note that this is not used for any model selection
 TRN_SPLIT=0-5000
